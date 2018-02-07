@@ -17,5 +17,15 @@ namespace harjoitus5
         {
             return a - b;
         }
+
+        public int Multi(int a, int b)
+        {
+            return a * b;
+        }
+
+        public int Divide(int a, int b)
+        {
+            return a / b;
+        }
     }
 }

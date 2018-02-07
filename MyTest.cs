@@ -25,5 +25,19 @@ namespace harjoitus5
             Assert.AreEqual(10, math.Sub(20, 10));
         }
 
+        [TestCase]
+        public void mutlti()
+        {
+            Math math = new Math();
+            Assert.AreEqual(10, math.Multi(2, 5));
+        }
+
+        [TestCase]
+        public void divide()
+        {
+            Math math = new Math();
+            Assert.AreEqual(7, math.Divide(14, 2));
+        }
+
     }
 }
