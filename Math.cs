@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace harjoitus5
 {
+    //Laskee +, -, *, / laskuja :) 
+
    public class Math
     {
         public int Add(int a, int b)
